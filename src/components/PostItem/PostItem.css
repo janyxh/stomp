@@ -1,0 +1,47 @@
+.root{
+	width: 1000px;
+	margin: 0 auto;
+}
+.list{
+    padding-right: 10px;
+    background: #fff;
+    border-top: 1px solid #f0f0f0;
+    position: relative;
+    padding: 10px 0 10px 10px;
+    font-size: 14px;
+}
+.author{
+ float: left;
+}
+.title{
+    max-width: 70%;
+    -o-text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    line-height: 30px;
+}
+.time{
+     color: #ababab;
+    font-size: 16px;
+    word-break: break-word;
+    margin: 10px;
+}
+.image{
+	width: 30px;
+    height: 30px;
+    border-radius: 3px;
+        max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+    float: left;
+}
+.name{
+color: #778087;
+}
+.header{
+	    padding: 10px;
+    background-color: #f6f6f6;
+    border-radius: 3px 3px 0 0;
+}

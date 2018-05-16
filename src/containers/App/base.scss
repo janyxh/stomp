@@ -1,0 +1,78 @@
+$color: #48a9f0;
+
+$red: #F84A51;
+
+$green: #35D6F7;
+
+$orange: #F57E23;
+
+$purple: #916de3;
+
+$fc: #32323b;
+
+$gray: #a7a7a7;
+
+$dark-gray: #a7a7a7;
+
+$white: #fff;
+
+$border-gray: #e8e8e8;
+
+$border-dark-gray: #b2b2b2;
+
+$table-bgc: #F9F9F9;
+
+$table-hover: #e2e2e2;
+
+$table-split: #e8e8e8;
+
+.btn {
+	color: $white;
+	border-radius: 2px;
+	width: 120px;
+	height: 40px;
+	line-height: 40px;
+	cursor: pointer;
+	text-align: center;
+	font-size: 12px;
+}
+.btn:hover {
+	color: $white;
+	background: #268ad4;
+}
+.btn-primary {
+	background: $color;
+	color: $white;
+}
+.btn-primary:not([disabled]):active, .btn-primary:not([disabled]):hover {
+	background: #268ad4;
+}
+.btn-primary:disabled {
+	background: #bcd8f1;
+}
+.btn-default {
+	background: #f7f7f7;
+	color: #32323b;
+}
+.btn-default:not([disabled]):active, .btn-default:not([disabled]):hover {
+	background: #ececec;
+}
+.btn-disabled {
+	color: #32323b;
+}
+
+.btn-disabled:hover {
+	color: #f7f7f7;
+}
+.fc48 {
+	color: $color;
+}
+.mb10 {
+	margin-bottom: 10px;
+}
+.cp {
+	cursor: pointer;
+}
+.pr{
+	position: relative;
+}

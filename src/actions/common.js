@@ -1,0 +1,1 @@
+import requestAPI from './config';

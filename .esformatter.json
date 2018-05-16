@@ -1,0 +1,27 @@
+
+// add to your 
+{
+
+  "extensions":
+    [
+      "js",
+      "jsx",
+      "sublime-settings"
+    ],
+  "options": {
+    "plugins": [
+      "esformatter-jsx",
+      "airbnb"
+    ],
+    "jsx": {
+      "formatJSX": true,
+      // change these to your preferred values
+      // refer to https://github.com/royriojas/esformatter-jsx#best-configuration for more options
+      "attrsOnSameLineAsTag": false, 
+      "maxAttrsOnTag": 1,
+      "firstAttributeOnSameLine": false,
+      "alignWithFirstAttribute": true
+    }
+    // other esformatter options
+  } 
+}
